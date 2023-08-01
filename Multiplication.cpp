@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,7 +12,8 @@ int main () {
     int a,b;
     string name;
     cout<<"Enter name: "<<endl;
-    cout<<"--------------HELLO"<<name<<"---------------"<<endl;
+    cin>>name;
+    cout<<"--------------HELLO "<<name<<"---------------"<<endl;
     cout<<"Enter a: "<<endl;
     cin>>a;
     cout<<"Enter b: "<<endl;
@@ -22,4 +24,3 @@ int main () {
 
     return 0;
 }
-
